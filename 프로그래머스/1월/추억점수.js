@@ -1,14 +1,17 @@
 function solution(name, yearning, photo) {
   var answer = [];
   photo.forEach((x, n) => {
+    // 2중 배열의 겉 배열 순회
     x.forEach((y) => {
+      // 2중 배열이 속 배열 순회(사진 속 사람들)
       name.forEach((z, n2) => {
+        // 내가 추억하는 사람들
         if (answer[n] == undefined) {
+          // answer에 값을 넣을 건데 나중에 answe+yearning 할거라 초기값 0 넣어줌
           answer[n] = 0;
         }
         if (z == y) {
-          // console.log(answer[n]);
-          answer[n] = answer[n] + yearning[n2];
+          answer[n] = answer[n] + yearning[n2]; // 추억점수 합산
         }
       });
     });
