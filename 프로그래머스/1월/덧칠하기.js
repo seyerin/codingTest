@@ -11,7 +11,6 @@ function solution(n, m, section) {
     cnt = check.length;
     answer++;
   }
-  console.log(answer);
   return answer;
 }
 
