@@ -33,7 +33,7 @@ function solution(bandage, health, attacks) {
     // console.log(stage, currentHealth);
     currentContinuous++;
   }
-  console.log(currentHealth);
+  // console.log(currentHealth);
   return currentHealth;
 }
 
@@ -53,12 +53,12 @@ function solution(bandage, health, attacks) {
 //   [5, 16],
 //   [8, 6],
 // ];
-const bandage = [1, 1, 1];
-const health = 5;
-const attacks = [
-  [1, 2],
-  [3, 2],
-];
+// const bandage = [1, 1, 1];
+// const health = 5;
+// const attacks = [
+//   [1, 2],
+//   [3, 2],
+// ];
 // const bandage = [4, 2, 7];
 // const health = 20;
 // const attacks = [
