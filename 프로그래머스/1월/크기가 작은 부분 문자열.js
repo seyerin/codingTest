@@ -25,7 +25,6 @@ function solution(t, p) {
       answer++;
     }
   });
-  console.log(answer);
   return answer;
 }
 
@@ -39,3 +38,5 @@ const t = "10203";
 const p = "15";
 
 solution(t, p);
+
+console.log(0.4 + 0.2);
