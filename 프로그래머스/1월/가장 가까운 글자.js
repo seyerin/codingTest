@@ -17,7 +17,6 @@ function solution(s) {
       locationNum.push(n);
     }
   });
-  console.log(answer);
   return answer;
 }
 
