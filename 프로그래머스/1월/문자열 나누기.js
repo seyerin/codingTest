@@ -28,10 +28,14 @@ function solution(s) {
     }
   }
   if (answer == 0) answer++;
-  console.log(answer);
+  // console.log(answer);
   return answer;
 }
 
 const s = "aa";
 
 solution(s);
+
+if ("0") {
+  console.log("a");
+}
