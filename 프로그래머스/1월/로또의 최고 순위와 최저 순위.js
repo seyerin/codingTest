@@ -4,6 +4,7 @@ function solution(lottos, win_nums) {
   let matchingNum = lottos.filter((x) => win_nums.indexOf(x) != -1).length;
   let lank = [6, 6, 5, 4, 3, 2, 1];
   answer = [lank[matchingNum + zeroCnt], lank[matchingNum]];
+  console.log(answer);
   return answer;
 }
 
