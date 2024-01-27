@@ -3,10 +3,9 @@ function solution(a, b) {
 
   a.forEach((x, n) => {
     let temp = x * b[n];
-
     answer += temp;
   });
-  console.log(answer);
+
   return answer;
 }
 
