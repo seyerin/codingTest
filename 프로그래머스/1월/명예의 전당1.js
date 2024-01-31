@@ -12,13 +12,15 @@ function solution(k, score) {
       temp.push(x);
       cnt++;
       min = temp[0];
-      //---------------------------> 명예의 전당에 오른 점수의 수가 k보다 작을 때
+      //---------------------------> 명예의 전당에 오른 점수의 수가 k보다 클 때
     }
-    temp.sort((a, b) => a - b);
+    temp.sort((a, b) => a - b); // temp[0]으로 가장 작은 명예의 전당 점수를 조회 함으로 정렬
+
     if (temp.length > k) {
+      // 명예의 전당에 오른 점수의 개수가 k 보다 커지면 이전까지 가장 낮은 점수를 삭제 시킴
       temp.splice(0, 1);
     }
-    answer.push(temp[0]);
+    answer.push(temp[0]); // 명예의 전당에 오른 점수 중 가장 작은 수를 push
   });
 
   return answer;
