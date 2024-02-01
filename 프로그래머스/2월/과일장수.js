@@ -12,7 +12,6 @@ function solution(k, m, score) {
       temp = [];
     }
   });
-  console.log(box);
   if (box.length == 0) return 0;
 
   box.forEach((x) => {
