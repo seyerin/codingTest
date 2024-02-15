@@ -42,7 +42,6 @@ function solution(food) {
   for (let i = 1; i < food.length; i++) {
     res += String(i).repeat(Math.floor(food[i] / 2));
   }
-  console.log(res + "0" + [...res].reverse().join(""));
   return res + "0" + [...res].reverse().join("");
 }
 
