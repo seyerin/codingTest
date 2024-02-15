@@ -23,7 +23,6 @@ function solution(answers) {
     cnt3++;
     cnt++;
   }
-  console.log(p1, p2, p3);
   let p1Cnt = 0;
   let p2Cnt = 0;
   let p3Cnt = 0;
@@ -54,7 +53,6 @@ function solution(answers) {
       answer.push(arr[0][1]);
     }
   }
-  console.log(arr, answer);
   answer.sort((a, b) => a - b);
 
   return answer;
