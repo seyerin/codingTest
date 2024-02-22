@@ -7,7 +7,6 @@ function solution(n) {
       answer += "수";
     }
   }
-  console.log(answer);
   return answer;
 }
 
