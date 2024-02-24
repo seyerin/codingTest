@@ -9,6 +9,6 @@ function solution(seoul) {
   return answer;
 }
 
-const seoul = ["Jane", "Kim"];
+// const seoul = ["Jane", "Kim"];
 
 solution(seoul);
