@@ -1,14 +1,12 @@
 function solution(x) {
   var answer = false;
-  let split = x.toString().split("");
   let sum = 0;
-  for (let i = 0; i < split.length; i++) {
-    sum += Number(split[i]);
+  while (x > 0) {
+    sum += x % 10;
+    x = Math.floor(x / 10);
   }
 
-  if (x % sum == 0) answer = true;
-  console.log(answer);
-  return answer;
+  return !(x % num);
 }
 
 const x = 2515;
