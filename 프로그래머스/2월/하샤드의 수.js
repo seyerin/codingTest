@@ -6,7 +6,7 @@ function solution(x) {
     x = Math.floor(x / 10);
   }
 
-  return !(x % num);
+  return !(x % sum);
 }
 
 const x = 2515;
