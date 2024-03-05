@@ -11,7 +11,7 @@ function solution(n, m) {
     cnt--;
   }
 
-  // console.log(cnt);
+  console.log(cnt);
   answer.push(cnt);
 
   while (1) {
