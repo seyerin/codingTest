@@ -3,7 +3,6 @@ function solution(a, b) {
   for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
     answer += i;
   }
-  console.log(answer);
   return answer;
 }
 
