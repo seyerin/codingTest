@@ -10,7 +10,6 @@ function solution(strArr) {
   return max;
 }
 
-// const strArr = ["a", "bc", "d", "efg", "hi"];
 const strArr = [
   "a",
   "b",
