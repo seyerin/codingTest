@@ -14,12 +14,12 @@
 // return answer;
 // }
 
-// function solution(nums) {
-//   let arr = [...new Set(nums)];
-//   let max = arr.length / 2;
-//   console.log(max, arr.length);
-//   // return arr.length > max ? max : arr.length;
-// }
+function solution(nums) {
+  let arr = [...new Set(nums)];
+  let max = arr.length / 2;
+  console.log(max, arr.length);
+  // return arr.length > max ? max : arr.length;
+}
 
 const nums = [3, 1, 2, 4];
 solution(nums);
