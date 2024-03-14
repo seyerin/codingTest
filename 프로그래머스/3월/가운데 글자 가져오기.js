@@ -7,7 +7,7 @@ function solution(s) {
     const center = Math.floor(s.length / 2);
     answer = s[center];
   }
-  console.log(answer);
+  // console.log(answer);
   return answer;
 }
 
