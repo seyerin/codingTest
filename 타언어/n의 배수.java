@@ -7,6 +7,8 @@ class Solution {
       else {
           answer = 0;
       }
+      
+      System.out.println("aaaaa");
       return answer;
   }
 }
