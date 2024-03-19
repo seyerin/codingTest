@@ -7,7 +7,6 @@ class Solution {
       if(w>0 && board[h][w-1].equals(board[h][w])){
           answer++;
       }
-      
       if(board.length-1 > h && board[h+1][w].equals(board[h][w])){
           answer++;
       }
