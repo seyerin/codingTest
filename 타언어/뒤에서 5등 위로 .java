@@ -6,6 +6,7 @@ class Solution {
         for(int i=0; i<num_list.length -5; i++){
             answer[i] = num_list[i+5];
         }
+        System.out.println(answer);
         return answer;
     }
 }
