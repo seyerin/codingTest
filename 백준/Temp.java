@@ -1,7 +1,6 @@
 // 1271번 문제
 import java.math.BigInteger;
 import java.util.*;
-
 public class Temp {
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
