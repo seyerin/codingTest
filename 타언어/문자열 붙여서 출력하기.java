@@ -1,4 +1,4 @@
-public import java.util.Scanner;
+ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
@@ -7,6 +7,4 @@ public class Solution {
         String b = sc.next();
         System.out.print(a+b);
     }
-} 문자열 붙여서 출력하기 {
-  
 }
