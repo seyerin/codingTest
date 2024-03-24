@@ -1,5 +1,5 @@
 class Solution {
-  public int[] solution(int[] num_list) {
+  public int[] 마지막 두 원소(int[] num_list) {
       int length = num_list.length;
       int[] answer = new int[length +1];
       for(int i = 0; i < length; i++){
