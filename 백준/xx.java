@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class xx {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     String str = sc.nextLine();
@@ -33,6 +33,7 @@ public class Main {
     else{
       System.out.println(alphaArr[idx]);
     }
+    sc.close();
   }
 }
 

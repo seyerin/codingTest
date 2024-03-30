@@ -11,5 +11,6 @@ public class 사파리월드 {
       else{
         System.out.println(b.subtract(a));
       }
+      sc.close();
     }
 }
