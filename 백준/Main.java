@@ -5,10 +5,10 @@ public class Main {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
 
+    sc.nextLine();
     for(int i=0; i<n; i++){
       String str = sc.nextLine();
-      System.out.println(str);
-        // System.out.println(str.charAt(0) + "" + str.charAt(str.length() -1));
+        System.out.println(str.charAt(0)+""+str.charAt(str.length() -1));
     }
     
   }
