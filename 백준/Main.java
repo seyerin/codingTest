@@ -10,6 +10,5 @@ public class Main {
       String str = sc.nextLine();
         System.out.println(str.charAt(0)+""+str.charAt(str.length() -1));
     }
-    
   }
 }
