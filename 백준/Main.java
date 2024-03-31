@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    for(int i=0; i<n; i++){
-      int a = sc.nextInt();
-      int b = sc.nextInt();
-      int result = 1;
-      for(int j =0; j<b; j++){
-        result = (result*a) %10;
+    String n = sc.nextLine();
+    int f = sc.nextInt();
+
+    String lastnum = n.charAt(n.length()-2) +""+ n.charAt(n.length()-1);
+    int num = Integer.parseInt(n) - Integer.parseInt(lastnum);
+    
+    for(int i=1; i<=100; i++){
+      if(num%f == 0){
+        break;
       }
-      if(result == 0){
-        System.out.println(10);
-      }
-      else{
-        System.out.println(result);
-      }
+      num++;
     }
+    n = Integer.toString(num);
+    lastnum = n.charAt(n.length()-2)+""+n.charAt(n.length()-1);
+    System.out.println(lastnum);
   }
 }
