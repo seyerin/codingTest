@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Main {
+public class Q1125 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
 
