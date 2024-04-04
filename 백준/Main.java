@@ -4,16 +4,13 @@ public class Main {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
 
-    int num = s.nextInt();
-    int[] arr = new int[num];
-    
-    int min = 1000000000;
-    int max = 0;
-    for(int i=0; i<num; i++){
-      arr[i] = s.nextInt();
-      min = Math.min(min, arr[i]);
-      max = Math.max(max, arr[i]);
+    int n = s.nextInt();
+
+    for(int i=0; i<n; i++){
+      int a = s.nextInt();
+      int b = s.nextInt();
+
+      System.out.println(a+b);
     }
-    System.out.println(min*max);
   }
 }
