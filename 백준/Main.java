@@ -4,13 +4,22 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
-    String num = s.next();
+    int time = s.nextInt();
+    int sake = s.nextInt();
 
-    long remainder = 0;
-    for (int i = 0; i < num.length(); i++) {
-        remainder = (remainder * 10 + (num.charAt(i) - '0')) % 20000303;
+    int rice = 0;
+
+    if(time >= 12 && time<=16){
+      if(sake == 1){
+        rice = 280;
+      }
+      else{
+        rice = 320;
+      }
     }
-
-    System.out.println(remainder);
+    else{
+      rice = 280;
+    }
+    System.out.println(rice);
   }
 }
