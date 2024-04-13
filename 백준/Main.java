@@ -3,23 +3,30 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner s = new Scanner(System.in);
-    int time = s.nextInt();
-    int sake = s.nextInt();
+    Scanner sc = new Scanner(System.in);
+    int e = sc.nextInt();
+    int s = sc.nextInt();
+    int m = sc.nextInt();
 
-    int rice = 0;
-
-    if(time >= 12 && time<=16){
-      if(sake == 1){
-        rice = 280;
+    int temE=0, temS=0, temM=0, cnt=0;
+    while(true){
+      if(temE == e && temS == s && temM == m){
+        break;
       }
-      else{
-        rice = 320;
+      temE++;
+      temS++;
+      temM++;
+      if(temE == 15){
+        temE = 0;
       }
+      if(temS == 28){
+        temS = 0;
+      }
+      if(temM == 19){
+        temM = 0;
+      }
+      cnt++;
     }
-    else{
-      rice = 280;
-    }
-    System.out.println(rice);
+    System.out.println(cnt);
   }
 }
