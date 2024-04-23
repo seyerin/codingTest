@@ -17,3 +17,6 @@ public class Q28701 {
     System.out.println((int)r3);
   }
 }
+ {
+  
+}
